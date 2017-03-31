@@ -1,0 +1,7 @@
+Many developers and data scientists need to critically analyse how this framework can be used for data processing in a
+much efficient way. Though Hadoop is known for analysing huge files, for that need to divide those huge and complex data
+sets and store them in Hadoopdistributedfile system. In some cases, we might need to use Hadoop to analyse multiple
+domains’ data (for example, when it comes to healthcare within the insurance sector). Healthcare data needs to be analysed
+by insurance companies in order to set-up insurance plans for different patients. For this, it is highly recommended to
+provide the correct parameters. There is a high chance of one domain being dependent on another similar to e-commerce shopping
+sites using sentimental analysis for making decisions for their users that are buying products on their website.

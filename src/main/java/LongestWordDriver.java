@@ -20,7 +20,7 @@ public class LongestWordDriver extends Configured implements Tool {
         job.setReducerClass(LongestWordReducer.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
-        FileInputFormat.addInputPath(job, new Path(args[0]));
+        FileInputFormat.addInputPaths(job, args[0]);
         FileOutputFormat.setOutputPath(job, output);
         output.getFileSystem(getConf()).delete(output, true);
         return job.waitForCompletion(true) ? 0 : 1;

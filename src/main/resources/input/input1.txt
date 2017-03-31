@@ -1,0 +1,3 @@
+This approach as a matter of fact is very simple and effective. Here we simply need to understandtheconcept of number
+of mappers needed. As you may know, mapper extract its input from the input file. When there are more than input file ,
+we need the same number of mapper to read records from input files. For instance, if we are using two input files then we need two mapper classes.
