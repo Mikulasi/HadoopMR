@@ -2,7 +2,6 @@
 /.idea/
 /target/
 *.iml
-src/test/
 *.crc
 part*
 *SUCCESS*
